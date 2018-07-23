@@ -19,14 +19,14 @@ Contact:
 [Sarah Ostadabbas](ostadabbas@gmail.com)
 ## Contents  !!! work on later according to the content we have 
 * [1. Requirement](#1-Requirement)
-* [2. Download SURREAL dataset and sequence Index files](#2-Download-SURREAL-dataset-and-sequence Index files)
-* [2. Training models](https://github.com/gulvarol/surreal#3-training-models)
-* [3. Image Generation test](https://github.com/gulvarol/surreal#4-storage-info)
-* [4. Video generation test]
-* [5. Innser-space preserving evaluation]
-* [Citation](https://github.com/gulvarol/surreal#citation)
-* [License](https://github.com/gulvarol/surreal#license)
-* [Acknowledgements](https://github.com/gulvarol/surreal#acknowledgements)
+* [2. Download SURREAL dataset and Index files](#2-Download-SURREAL-dataset-and-Index-files)
+* [3. Path settings](#3-Path-settings)
+* [4. Training](#4-Training)
+* [5. Testing](#5-Testing)
+* [6. Evaluation](#-Evaluation)
+* [Citation](#citation)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
 
 ## 1. Requirement 
@@ -71,12 +71,12 @@ All models and generated results will be saved here
 We provide a few samples from different domains including real human, paitings and sculptures located in folder samples. 
 You can provide your own source location by setting '-genFd' option 
 
-## 3. Training  
+## 4. Training  
 We provide an example of training a model with cGAN configuration by 
 'th main.lua -dirName <your_experiment_id> -cGAN'
 For customized settings, please set opts.lua accordingly or pass in by command lines. 
 
-## 4. Testing 
+## 5. Testing 
 You can repose the provided samples by 
 'th main.lua -epochNumber <yourEpochNum + 1> -flgGenFd -dirName <your_model_nm>'
 
@@ -84,7 +84,7 @@ You can download our pretrained model with 2 layer discriminator [GPM_MP_D2](htt
 In this case: 
 'th main.lua -epochNumber 51 -flgGenFd -dirName GPM_MP_D2'
 
-## 5. Evaluation 
+## 6. Evaluation 
 We provide the inner space preserving evaluation of first 100 images of SURREAL in validation set: 
 'th main.lua -dirName GPM7 -epochNumber 51 -ifTsRMS'
 
