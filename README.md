@@ -7,10 +7,8 @@ Shangjun Liu, Sarah Ostadabbas  [Inner Space Preserving - Generative Pose Machin
 Check the [project page](http://www.di.ens.fr/willow/research/surreal/) for more materials.  !!! link!!! 
 
 # !!!  add image here!!! 
-![Scheme](images/GPMframe.pdf)
-<img src="images/GPMframe.pdf" width="900px"/>
-
-<img src="images/ISPreposing.pdf" width = "900px"/>
+![GPM frame](images/GPMframe.PNG)
+![ISP reposing](images/ISPreposing.PNG)
 <!---
 <p align="center">
 <img src="/images/GPMframe.pdf"
