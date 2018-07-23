@@ -8,10 +8,10 @@ Check the [project page](http://www.di.ens.fr/willow/research/surreal/) for more
 
 # !!!  add image here!!! 
 <p align="center">
-<img src="images/GPMframe.pdf"
+<img src="/images/GPMframe.pdf"
 </p>
 <p align="center">
-<img src="images/ISPreposing.pdf"
+<img src="/images/ISPreposing.pdf"
 </p>
 
 Contact: 
