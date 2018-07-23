@@ -2,19 +2,17 @@
 
 This is the code for the following paper:
 
-Shangjun Liu, Sarah Ostadabbas  [Inner Space Preserving - Generative Pose Machine](https://arxiv.org/abs/1701.01370), ECCV 2018.  !!!! change link! !!! 
+Shangjun Liu, Sarah Ostadabbas  [Inner Space Preserving - Generative Pose Machine] (https://arxiv.org/abs/1701.01370), ECCV 2018.  !!!! change link! !!! 
 
-Check the [project page](http://www.di.ens.fr/willow/research/surreal/) for more materials.  !!! link!!! 
-
+Check the [project page](http://www.northeastern.edu/ostadabbas/2018/07/23/inner-space-preserving-generative-pose-machine/) for more materials.  
 ![GPM frame](images/GPMframe.PNG)
-![ISP reposing](images/ISPreposing.PNG)
 
 
 
 Contact: 
-[Shuangjun Liu](liu.shu@husk.neu.edu),
+[Shuangjun Liu](shuliu@ece.neu.edu),
 
-[Sarah Ostadabbas](ostadabbas@gmail.com)
+[Sarah Ostadabbas](ostadabbas@ece.neu.edu)
 ## Contents   
 * [1. Requirement](#1-requirement)
 * [2. Download SURREAL dataset and Index files](#2-download-surreal-dataset-and-index-files)
@@ -99,9 +97,9 @@ For human pose estimation, please download the [stacked-hour-glass](https://gith
 ## Citation 
 If you use this code, please cite the following:
 ```
-@INPROCEEDINGS{sjliu_ISPGPM,
+@INPROCEEDINGS{sjliu2018ISPGPM,
   title     = {Inner Space Preserving Generative Pose Machine},  
-  author    = {Shuangjun Liu, Sarah},  
+  author    = {Liu, Shuangjun and Ostadabbas, Sarah},  
   booktitle = {ECCV},  
   year      = {2018}  
 }
