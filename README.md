@@ -60,7 +60,7 @@ Set the dataset root.
 
 Set the datasetname. 
 
-In our case, *<dataseRoot>/cmu *
+In our case, `<dataseRoot>/cmu`
 
 ### Experiment path 
 Set your experiment root by -logRoot
@@ -91,14 +91,15 @@ In this case:
 
 ## 6. Evaluation 
 We provide the inner space preserving evaluation of first 100 images of SURREAL in validation set: 
-'th main.lua -dirName GPM7 -epochNumber 51 -ifTsRMS'
+
+`th main.lua -dirName GPM7 -epochNumber 51 -ifTsRMS`
 
 For human pose estimation, please download the [stacked-hour-glass](https://github.com/umich-vl/pose-hg-train). Then evaluate the pose estimation result on reposed humans against the ground truth that employed during reposing. 
 
 ## Citation 
 If you use this code, please cite the following:
 ```
-@INPROCEEDINGS{shuangjun_surreal,  
+@INPROCEEDINGS{sjliu_ISPGPM,
   title     = {Inner Space Preserving Generative Pose Machine},  
   author    = {Shuangjun Liu, Sarah},  
   booktitle = {ECCV},  
