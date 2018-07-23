@@ -113,7 +113,8 @@ If you use this code, please cite the following:
 * No maintainence survice 
 
 ## Acknowledgements
-The training sesssion depends on [SURREAL](https://github.com/gulvarol/surreal) dataset written by [Gul Varol](https://github.com/gulvarol)
+The training sesssion depends on [SURREAL](https://github.com/gulvarol/surreal) dataset written by [Gul Varol](https://github.com/gulvarol). 
+
 The Conditional GAN descriminator comes from original work of [image-to-image translation with conditional adversarial nets](https://phillipi.github.io/pix2pix/) by [Phillip Isola](https://github.com/phillipi)
 
 
