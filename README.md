@@ -15,7 +15,7 @@ Contact:
 [Shuangjun Liu](liu.shu@husk.neu.edu),
 
 [Sarah Ostadabbas](ostadabbas@gmail.com)
-## Contents  !!! work on later according to the content we have 
+## Contents   
 * [1. Requirement](#1-requirement)
 * [2. Download SURREAL dataset and Index files](#2-wownload-surreal-dataset-and-index-files)
 * [3. Path settings](#3-path-settings)
@@ -60,7 +60,7 @@ Set the dataset root.
 
 Set the datasetname. 
 
-In our case, <dataseRoot>/cmu 
+In our case, *<dataseRoot>/cmu *
 
 ### Experiment path 
 Set your experiment root by -logRoot
@@ -71,19 +71,19 @@ All models and generated results will be saved here
 
 ### Sample path 
 We provide a few samples from different domains including real human, paitings and sculptures located in folder samples. 
-You can provide your own source location by setting '-genFd' option 
+You can provide your own source location by setting `-genFd` option 
 
 ## 4. Training  
 We provide an example of training a model with cGAN configuration by 
 
-'th main.lua -dirName <your_experiment_id> -cGAN'
+`th main.lua -dirName <your_experiment_id> -cGAN`
 
 For customized settings, please set opts.lua accordingly or pass in by command lines. 
 
 ## 5. Testing 
 You can repose the provided samples by 
 
-'th main.lua -epochNumber <yourEpochNum + 1> -flgGenFd -dirName <your_model_nm>'
+`th main.lua -epochNumber <yourEpochNum + 1> -flgGenFd -dirName <your_model_nm>`
 
 You can download our pretrained model with 2 layer discriminator [GPM_MP_D2](http://www.coe.neu.edu/Research/AClab/GPM/GPM_MP_D2.zip) with 50 epoches 
 In this case: 
