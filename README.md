@@ -2,7 +2,7 @@
 
 This is the code for the following paper:
 
-Shangjun Liu, Sarah Ostadabbas  [Inner Space Preserving - Generative Pose Machine] (https://arxiv.org/abs/1701.01370), ECCV 2018.  !!!! change link! !!! 
+S. Liu, S. Ostadabbas, “Inner Space Preserving Generative Pose Machine,” accepted for publication in the European Conference on Computer Vision (ECCV’18), September 8-14, 2018, Munich, Germany.
 
 Check the [project page](http://www.northeastern.edu/ostadabbas/2018/07/23/inner-space-preserving-generative-pose-machine/) for more materials.  
 ![GPM frame](images/GPMframe.PNG)
@@ -13,6 +13,8 @@ Contact:
 [Shuangjun Liu](shuliu@ece.neu.edu),
 
 [Sarah Ostadabbas](ostadabbas@ece.neu.edu)
+
+
 ## Contents   
 * [1. Requirement](#1-requirement)
 * [2. Download SURREAL dataset and Index files](#2-download-surreal-dataset-and-index-files)
@@ -95,7 +97,7 @@ We provide the inner space preserving evaluation of first 100 images of SURREAL 
 For human pose estimation, please download the [stacked-hour-glass](https://github.com/umich-vl/pose-hg-train). Then evaluate the pose estimation result on reposed humans against the ground truth that employed during reposing. 
 
 ## Citation 
-If you use this code, please cite the following:
+If you find our work useful in your research please consider citing our paper:
 ```
 @INPROCEEDINGS{sjliu2018ISPGPM,
   title     = {Inner Space Preserving Generative Pose Machine},  
