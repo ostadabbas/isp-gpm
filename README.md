@@ -19,12 +19,12 @@ Contact:
 
 [Sarah Ostadabbas](ostadabbas@gmail.com)
 ## Contents  !!! work on later according to the content we have 
-* [1. Requirement](#1-Requirement)
-* [2. Download SURREAL dataset and Index files](#2-Download-SURREAL-dataset-and-Index-files)
-* [3. Path settings](#3-Path-settings)
-* [4. Training](#4-Training)
-* [5. Testing](#5-Testing)
-* [6. Evaluation](#-Evaluation)
+* [1. Requirement](#1-requirement)
+* [2. Download SURREAL dataset and Index files](#2-wownload-surreal-dataset-and-index-files)
+* [3. Path settings](#3-path-settings)
+* [4. Training](#4-training)
+* [5. Testing](#5-testing)
+* [6. Evaluation](#-evaluation)
 * [Citation](#citation)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
